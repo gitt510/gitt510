@@ -25,4 +25,4 @@ CI/CD, Cloudflare Workers, Terraform, and the small CLI tools around them.
 
 ## ✍️ Writing
 
-- Zenn: https://zenn.dev/<username> — tmux, mise, Claude Code の運用まわりの記事
+- Zenn: https://zenn.dev/zanzou510 — tmux, mise, Claude Code の運用まわりの記事
