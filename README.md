@@ -1,6 +1,6 @@
 # Taichi Goto
 
-## 💎 Projects
+## Projects
 
 - [kura](https://github.com/gitt510/kura) — Personal knowledge pipeline that archives agent conversations. Recalls them only when explicitly asked.
 - [nabu](https://github.com/gitt510/nabu) — Agent-integrated task manager CLI.
