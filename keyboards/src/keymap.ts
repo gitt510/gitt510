@@ -1,4 +1,6 @@
 import base from '../us-65.base.json'
+import lower from '../us-65.lower.json'
+import raise from '../us-65.raise.json'
 import util from '../us-65.util.json'
 import launch from '../us-65.launch.json'
 import fkeyData from '../fkeys.json'
@@ -49,5 +51,5 @@ function layer({ trigger, keys }: { trigger: string; keys: Record<string, LayerK
 
 export const keymap: Keymap = {
   ...base,
-  layers: { util: layer(util), launch: layer(launch) },
+  layers: { lower: layer(lower), raise: layer(raise), util: layer(util), launch: layer(launch) },
 }

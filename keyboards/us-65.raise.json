@@ -1,0 +1,8 @@
+{
+  "trigger": "Ctrl hold",
+  "keys": {
+    "space": {"tap": "prefix", "note": "tmux prefix + 英数。Karabiner [tmux-prefix]"},
+    "rbracket": {"tap": "kura", "note": "Claude Code の pane で /kura-companion を送る。tmux bind -n C-]"},
+    "ctrl": {"tap": "Raise", "held": true}
+  }
+}
