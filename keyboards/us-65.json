@@ -74,14 +74,14 @@
       {"id": "space", "tap": "Space", "width": 6.25},
       {"id": "henkan", "tap": "変換", "hold": "かな"},
       {"id": "ctrl", "tap": "Ctrl"},
-      {"id": "caps", "tap": "Caps", "hold": "Raise"},
+      {"id": "caps", "tap": "Caps", "hold": "Util"},
       {"id": "left", "tap": "←"},
       {"id": "down", "tap": "↓"},
       {"id": "right", "tap": "→"}
     ]
   ],
   "layers": {
-    "raise": {
+    "util": {
       "trigger": "Caps hold",
       "keys": {
         "1": {"tap": "F1"},
@@ -105,7 +105,7 @@
         "x": {"tap": "TabClose"},
         "c": {"tap": "TabNext"},
         "up": {"tap": "F3"},
-        "caps": {"tap": "Raise", "held": true},
+        "caps": {"tap": "Util", "held": true},
         "left": {"tap": "F1"},
         "down": {"tap": "MC"},
         "right": {"tap": "F2"}
