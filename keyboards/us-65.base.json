@@ -79,56 +79,5 @@
       {"id": "down", "tap": "↓"},
       {"id": "right", "tap": "→"}
     ]
-  ],
-  "layers": {
-    "util": {
-      "trigger": "Caps hold",
-      "keys": {
-        "1": {"tap": "F1"},
-        "2": {"tap": "F2"},
-        "3": {"tap": "F3"},
-        "4": {"tap": "Raycast"},
-        "5": {"tap": "Raycast"},
-        "6": {"tap": "F6"},
-        "7": {"tap": "F7"},
-        "8": {"tap": "F8"},
-        "9": {"tap": "Shottr", "note": "Shottr で window をキャプチャ"},
-        "0": {"tap": "ShotWin", "note": "screenshot.sh -w（window）"},
-        "slash": {"tap": "ShotArea", "note": "screenshot.sh -i（範囲選択）"},
-        "equal": {"tap": "F12"},
-        "l": {"tap": "NewTab", "note": "⌘T。terminal では tmux の new-window（prefix t）"},
-        "e": {"tap": "TabPrev", "note": "⌃⇧Tab。terminal では tmux の previous-window（⌃⇧←）"},
-        "i": {"tap": "CloseTab", "note": "⌘W。terminal では tmux の kill-pane（prefix w）"},
-        "a": {"tap": "TabNext", "note": "⌃Tab。terminal では tmux の next-window（⌃⇧→）"},
-        "z": {"tap": "⌘1"},
-        "x": {"tap": "⌘2"},
-        "c": {"tap": "⌘3"},
-        "up": {"tap": "F3"},
-        "caps": {"tap": "Util", "held": true},
-        "left": {"tap": "F1"},
-        "down": {"tap": "MC"},
-        "right": {"tap": "F2"}
-      }
-    },
-    "launch": {
-      "trigger": "R-Shift hold",
-      "keys": {
-        "a": {"tap": "Ghostty"},
-        "b": {"tap": "Alacritty"},
-        "c": {"tap": "Chrome"},
-        "comma": {"tap": "Settings"},
-        "d": {"tap": "Discord"},
-        "e": {"tap": "kitty"},
-        "f": {"tap": "Firefox"},
-        "m": {"tap": "MenuBar"},
-        "n": {"tap": "Notify"},
-        "o": {"tap": "Obsidian"},
-        "p": {"tap": "1Password"},
-        "s": {"tap": "WezTerm"},
-        "v": {"tap": "Maccy"},
-        "x": {"tap": "Finder"},
-        "rshift": {"tap": "Launch", "held": true}
-      }
-    }
-  }
+  ]
 }
