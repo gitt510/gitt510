@@ -1,0 +1,7 @@
+{
+  "f1": {"by": "rectangle", "action": "leftHalf"},
+  "f2": {"by": "rectangle", "action": "rightHalf"},
+  "f3": {"by": "rectangle", "action": "maximize"},
+  "f6": {"by": "rectangle", "action": "firstTwoThirds"},
+  "f7": {"by": "rectangle", "action": "lastThird"}
+}

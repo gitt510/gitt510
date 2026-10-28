@@ -1,0 +1,9 @@
+{
+  "trigger": "Cmd hold",
+  "keys": {
+    "space": {"tap": "prefix", "note": "tmux prefix（⌃Space）+ 英数。Karabiner [tmux-prefix]"},
+    "r": {"tap": "⌃R", "note": "terminal の中だけ ⌃R。Karabiner [term]"},
+    "u": {"tap": "⌃U", "note": "terminal の中だけ ⌃U。Karabiner [term]"},
+    "win": {"tap": "Lower", "held": true}
+  }
+}

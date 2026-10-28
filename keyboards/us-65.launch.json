@@ -1,0 +1,20 @@
+{
+  "trigger": "R-Shift hold",
+  "keys": {
+    "a": {"tap": "Ghostty"},
+    "b": {"tap": "Alacritty"},
+    "c": {"tap": "Chrome"},
+    "comma": {"tap": "Settings"},
+    "d": {"tap": "Discord"},
+    "e": {"tap": "kitty"},
+    "f": {"tap": "Firefox"},
+    "m": {"tap": "MenuBar"},
+    "n": {"tap": "Notify"},
+    "o": {"tap": "Obsidian"},
+    "p": {"tap": "1Password"},
+    "s": {"tap": "WezTerm"},
+    "v": {"tap": "Maccy"},
+    "x": {"tap": "Finder"},
+    "rshift": {"tap": "Launch", "held": true}
+  }
+}
