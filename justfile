@@ -1,4 +1,8 @@
+_default:
+    @just --list
+
 # Open the keyboard view in the browser
-[group('keyboard')]
-keyboard:
-    cd keyboards && pnpm install --silent && pnpm dev --open
+[working-directory('keyboards')]
+open-keyboard:
+    pnpm install --silent
+    pnpm dev --open
